@@ -2,7 +2,9 @@
 
 /*
 
-number = int, float, bigint etc...
+number = int, float, etc...
+
+bigint 
 
 string -> " " or ' ' (" " preferred)
 

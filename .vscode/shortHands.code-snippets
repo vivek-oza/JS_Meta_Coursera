@@ -52,9 +52,16 @@
 			"/* \n$1\n */",
 		],
 		"description": "Log the type of variable or data to console"
+	},
+
+	"Constant variable declaration": {
+		"scope": "javascript,typescript",
+		"prefix": "con",
+		"body": [
+			"const $1 = $2;",
+		],
+		"description": "Declare and initialize a const keyword variable"
 	}
-
-
 
 
 	
