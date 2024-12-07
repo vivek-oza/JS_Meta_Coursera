@@ -81,3 +81,83 @@ let strSomeNum = String(someNum);
 
 console.log(strSomeNum);
 console.log(typeof(strSomeNum));
+
+// ######################################################
+// ######################################################
+// ##################### OPERATIONS #####################
+// ######################################################
+// ######################################################
+
+
+let value = 34;
+let negValue = -value;
+console.log(negValue);
+
+// ARITHMETIC OPERATIONS
+
+console.log(4+12);
+
+console.log(4-12);
+
+console.log(4*12);
+
+console.log(5**3);
+
+console.log(25/4);
+
+console.log(34%3);
+
+
+
+let str1 = "Hello";
+let str2 = " Vivek";
+
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+
+console.log("1" + 2 + 2); //122
+
+console.log(1 + 2 + "2"); //32
+
+console.log(1 + "2" + 2); //122
+
+console.log(1 + 2 + 1 + "2" + 2 + 2); //4222
+
+//REASON FOR THIS IS GUIDELINES IN DOCS (NAMED -> TO PRIMIRIVE)
+
+
+// some tricky conversion
+console.log(+true);
+console.log(+true);
+
+console.log(+"");
+
+
+
+
+let n1 ,n2 ,n3;
+n1 = n2 = n3 = 2+2      //NEVER USE THESE KIND OF ASSIGNMENTS
+
+
+// PREFIX AND POSTFIX INCEREMENT
+
+let gameCounter = 100;
+gameCounter++
+console.log(gameCounter);
+
+
+
+let x = 3;
+const y = x++;      //first assign value, then it increments(the original value)
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
