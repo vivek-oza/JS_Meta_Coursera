@@ -43,6 +43,15 @@
 			"console.log(typeof($1));",
 		],
 		"description": "Log the type of variable or data to console"
+	},
+
+	"Multiline comment": {
+		"scope": "javascript,typescript",
+		"prefix": "///",
+		"body": [
+			"/* \n$1\n */",
+		],
+		"description": "Log the type of variable or data to console"
 	}
 
 
