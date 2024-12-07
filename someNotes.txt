@@ -1,0 +1,4 @@
+"SOME NOTES"
+frontend -> JS -> interactivity, or simply frontend on client side
+backend -> nodeJS, ExpressJS -> Building backend in JS language
+
