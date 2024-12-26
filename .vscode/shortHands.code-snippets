@@ -56,7 +56,7 @@
 
 	"Constant variable declaration": {
 		"scope": "javascript,typescript",
-		"prefix": "con",
+		"prefix": "cn",
 		"body": [
 			"const $1 = $2;",
 		],
