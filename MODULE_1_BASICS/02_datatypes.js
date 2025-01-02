@@ -38,6 +38,11 @@ let state2 = null; //EMPTY , THE EMPTY VALUE IS GIVEN
 
 //symbol -> for uiqueness
 
+
+const my_symbol = Symbol("Key 1");   //What is symbol? -> A symbol is a unique and immutable data type that is often used to identify object properties. Syntax of symbol is -> Symbol("description")
+
+
+
 // object
 
 console.log(typeof(state));
